@@ -26,16 +26,16 @@ function showSlides() {
 }
 
 // Home category change slide
-document.getElementById("cate-").addEventListener("mousemove", function (event) {
-    pickSlide(event);
-});
+// document.getElementById("cate-").addEventListener("mousemove", function (event) {
+//     pickSlide(event);
+// });
 
-function pickSlide(e) {
-    var x = e.clientX;
-    var y = e.clientY;
-    var coor = "Coordinates: (" + x + "," + y + ")";
-    document.getElementById("demo").innerHTML = coor;
-}
+// function pickSlide(e) {
+//     var x = e.clientX;
+//     var y = e.clientY;
+//     var coor = "Coordinates: (" + x + "," + y + ")";
+//     document.getElementById("demo").innerHTML = coor;
+// }
 
 
 // Open chat bubble
